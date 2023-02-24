@@ -1,0 +1,27 @@
+[
+{
+	"empresa" : "Pentagrama",
+	"puesto" : "Leader multimedia",
+	"año" : "2020 - actualidad"
+},
+{
+	"empresa" : "Landor",
+	"puesto" : "Diseñador multimedia",
+	"año" : "2018 - 2020"
+},
+{
+	"empresa" : "Wolff Olins",
+	"puesto" : "Diseñador multimedia",
+	"año" : "2016 - 2018"
+},
+{
+	"empresa" : "Happy Cog",
+	"puesto" : "Auxiliar diseñador multimedia",
+	"año" : "2012 - 2014"
+},
+{
+	"empresa" : "Consultores de la marca Saffron",
+	"puesto" : "Cadete multimedia",
+	"año" : "2010 - 2012"
+}
+]

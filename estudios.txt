@@ -1,0 +1,17 @@
+[
+{
+	"título" : "Posgrado en Diseño multimedia",
+	"institución" : "FADU- Universidad de Buenos Aires ",
+	"años" : "2017 - 2019"
+},
+{
+	"título" : "Diseñador multimedia",
+	"institución" : "Instituto Superior de la Bahía: ISB",
+	"años" : "2013 - 2015"
+},
+{
+	"título" : "Tecnicatura en cosas",
+	"institución" : "ABM Instituto de Educación Superior en Diseño",
+	"años" : "2010 - 2013"
+}
+]

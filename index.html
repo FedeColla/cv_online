@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Currículum</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./media/marco-81089.mp4" type="video/mp4">
+      </video>
+    <main>
+        <div class="principal container">
+            <picture>
+                <img class="foto_perfil" id="img_perfil" src="#" alt="foto de perfil">
+            </picture>
+
+            <div class="usuario">
+                <h1 id="nombreCompleto">nombre y apellido</h1>
+                <h2 class="green">Diseño multimedia</h2>
+            </div>
+        </div>
+
+        <div class="datos">
+            <div class="contacto">
+                <i class='bx bxs-envelope right green' ></i>
+                <h3 id="email">usuario@email.com</h2>
+            </div>
+            <!--             <p id="estado">Estado</p> -->
+            <div class="contacto">
+                <i class='bx bxs-phone right green'></i>
+                <p id="telefono">0000000000</p>
+            </div>
+        </div>
+
+        <form class="container">
+            <h2 class="green">!Hablemos!</h2>
+            <ul>
+                <li>
+                    <label for="name">Empresa o particular:</label>
+                    <input type="text" id="name" name="user_name" required>
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail" required>
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message" required></textarea>
+                </li>
+                <input class="enviar" type="submit" value="Enviar" id="feedback" >
+            </ul>
+        </form>
+    </main>
+
+    <aside>
+        <div class="trabajos container">
+            <h2 class="green">Antecedentes laborales</h2>
+            <ul id="resTrabajos"></ul>
+        </div>
+
+        <div class="estudios container">
+            <h2 class="green">Educación</h2>
+            <ol id="resEstudios"></ol>
+        </div>
+    </aside>
+<script src="index.js"></script>
+</body>
+</html>

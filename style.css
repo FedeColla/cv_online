@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #858585;
+    background-color: antiquewhite;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+
+li{
+    list-style: none;
+}
+
+.foto_perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid #ffff;
+    box-shadow: 2px 2px 5px #bdbdbd;
+    margin-right: 20px;
+}
+
+main, aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    min-width: 700px;
+    height: 100vh;
+    padding: 5%;
+    z-index: 1;
+}
+
+.principal{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 85%;
+    height: 150px;
+    gap: 3%;
+    margin-top: 80px;
+}
+
+.container{
+    background-color: #fafafa;
+    padding: 4%;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.usuario{
+    padding-top: 40px;
+}
+
+.usuario h2{
+    padding-top: 10px;
+}
+
+.datos{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    padding-right: 10px;
+}
+
+.green{
+    color: rgb(5, 204, 111);
+}
+
+form{
+    width: 85%;
+    border: 1px solid rgb(5, 204, 111);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+form ul li{
+    padding-top: 20px;
+    text-align: start;
+}
+
+input, textarea{
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+}
+
+input:nth-child(4){
+    height: 48px;
+}
+
+textarea{
+    height: 60px;
+    resize: none;
+}
+
+.enviar{
+    cursor: pointer;
+    width: 50%;
+    background-color: rgb(5, 204, 111);
+    border-radius: 100px;
+    border: none;
+    Color: #FAFAFA;
+    font-weight: 600;
+}
+
+.enviado{
+    display: none;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 100px;
+    color:  rgb(5, 204, 111);
+    font-weight: 200;
+    border: none;
+    align-self: center;
+}
+
+.trabajos, .estudios{
+    width: 85%;
+    background-color: #fafafa;
+    text-align: start;
+}
+
+.trabajos li, .estudios li{
+    margin-top: 10px;
+}
